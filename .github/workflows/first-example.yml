@@ -10,5 +10,5 @@ jobs:
             - name: List Files
               run: ls -la
 
-            - name: Read File
-              run: cat README.md
+            - name: Print Processes
+              run: ps -au
